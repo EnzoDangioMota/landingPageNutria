@@ -198,6 +198,94 @@ header {
   color: #666;
 }
 
+
+/* Estilização da plans section */
+.plans{
+  margin-top: 4rem;
+}
+
+#plans-title {
+  text-align: center;
+  color: #EE7026;
+  font-size: 2rem;
+}
+
+#plans-subtitle{
+  color: #787878;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.plans-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding: 0 10rem;
+}
+
+.plans-ind{
+  border-radius: 15px;
+  border: 3px solid #EE7026;
+  padding-inline: 30px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.plans-info{
+  margin-bottom: 30px;
+}
+
+.plans-info h1{
+  color: #787878;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+.plans-features{
+  list-style: none;
+  font-size: 0.8em;
+  justify-self: center;
+  padding-top: 50px;
+}
+
+#basic-plan, #intermediary-plan{
+  margin-top: 40px;
+}
+
+#profissional-plan{
+  margin-bottom: 20px;
+}
+
+.plans-license{
+  color: #9A9A9A;
+  font-size: 0.7em;
+}
+
+.plans-price{
+  font-size: 2em;
+  color:#2C3036;
+}
+
+.plans-functions{
+  font-size: 0.8em;
+  color: #2C3036;
+}
+
+.btn-demonstration{
+  border-radius: 8px;
+  border: 2px solid #EE7026;
+  color: #EE7026;
+  font-size: 0.8em;
+  text-decoration: none;
+  padding: 10px 50px;
+}
+
+.not-included{
+  color: #BEBEBE;
+}
+
+
 /* Animação ao fazer o scroll */
 
 .animate-on-scroll {
@@ -292,6 +380,4 @@ header {
   .hero-content {
     max-width: 90%;
   }
-
-
 }
