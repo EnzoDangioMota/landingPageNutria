@@ -286,6 +286,26 @@ header {
   color: #BEBEBE;
 }
 
+/* Animação da plans section */
+.plans-ind:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0 0 15px #f06e2387;
+}
+
+.btn-demonstration:hover{
+  background-color: #EE7026;
+  color: white;
+}
+
+.btn-demonstration:active{
+  background-color: #b0511a;
+  border: 2px solid #b0511a;
+}
+
+.plans-ind, .btn-demonstration{
+  transition: all 0.3s ease;
+}
 
 /* Animação ao fazer o scroll */
 
@@ -294,7 +314,6 @@ header {
   transform: translateY(50px);
   transition: all 0.8s ease-out;
 }
-
 
 .visible {
   opacity: 1;
@@ -314,7 +333,6 @@ header {
   text-align: center;
   padding: 2rem;
 }
-
 
 .quotation-content {
   position: relative;
