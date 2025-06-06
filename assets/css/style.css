@@ -200,7 +200,7 @@ header {
 
 
 /* Estilização da plans section */
-.plans{
+.plans {
   margin-top: 4rem;
 }
 
@@ -210,21 +210,21 @@ header {
   font-size: 2rem;
 }
 
-#plans-subtitle{
+#plans-subtitle {
   color: #787878;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 40px;
 }
 
-.plans-grid{
+.plans-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   justify-items: center;
   padding: 0 10rem;
 }
 
-.plans-ind{
+.plans-ind {
   border-radius: 15px;
   border: 3px solid #EE7026;
   padding-inline: 30px;
@@ -232,47 +232,48 @@ header {
   padding-bottom: 20px;
 }
 
-.plans-info{
+.plans-info {
   margin-bottom: 30px;
 }
 
-.plans-info h1{
+.plans-info h1 {
   color: #787878;
   font-size: 1.2em;
   font-weight: normal;
 }
 
-.plans-features{
+.plans-features {
   list-style: none;
   font-size: 0.8em;
   justify-self: center;
   padding-top: 50px;
 }
 
-#basic-plan, #intermediary-plan{
+#basic-plan,
+#intermediary-plan {
   margin-top: 40px;
 }
 
-#profissional-plan{
+#profissional-plan {
   margin-bottom: 20px;
 }
 
-.plans-license{
+.plans-license {
   color: #9A9A9A;
   font-size: 0.7em;
 }
 
-.plans-price{
+.plans-price {
   font-size: 2em;
-  color:#2C3036;
+  color: #2C3036;
 }
 
-.plans-functions{
+.plans-functions {
   font-size: 0.8em;
   color: #2C3036;
 }
 
-.btn-demonstration{
+.btn-demonstration {
   border-radius: 8px;
   border: 2px solid #EE7026;
   color: #EE7026;
@@ -281,7 +282,7 @@ header {
   padding: 10px 50px;
 }
 
-.not-included{
+.not-included {
   color: #BEBEBE;
 }
 
