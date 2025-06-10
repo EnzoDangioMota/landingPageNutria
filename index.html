@@ -19,16 +19,17 @@
     </div>
     <nav class="navbar" id="navbar">
       <ul>
-        <li><a href="#features-title">Funcionalidades</a></li>
+        <li><a href=" #features-title">Funcionalidades</a></li>
         <li><a href="#plans-section">Planos e Preços</a></li>
         <li><a href="#">Sobre nós</a></li>
         <li><a href="#contact-section">Contato</a></li>
       </ul>
+      <div class="flags-translate-options">
+        <img src="./assets/images/flag_brasil.svg" alt="Português">
+        <img src="./assets/images/flag_eua.svg" alt="Inglês">
+      </div>
     </nav>
-    <div class="flags-translate-options">
-      <img src="./assets/images/flag_brasil.svg" alt="Português">
-      <img src="./assets/images/flag_eua.svg" alt="Inglês">
-    </div>
+
   </header>
 
   <main>
@@ -40,7 +41,7 @@
         <p>A Nutria é uma solução inteligente para equipes de P&D, que automatiza a criação e ajuste de tabelas
           nutricionais, acelerando o desenvolvimento de novos produtos com mais precisão, segurança e eficiência.</p>
         <div class="hero-buttons">
-          <a href="#" class="btn-outline">Entrar em Contato</a>
+          <a href="#contact-section" class="btn-outline">Entrar em Contato</a>
           <a href="#plans-section" class="btn-primary">Planos e Preços</a>
         </div>
       </div>
@@ -218,15 +219,15 @@
       <h2 class="contact-title">Contato</h2>
       <form class="contact-form">
         <div class="contact-row">
-          <input type="text" placeholder="Primeiro nome" class="contact-input">
-          <input type="text" placeholder="Última nome" class="contact-input">
+          <input type="text" placeholder="Primeiro nome" class="contact-input" required>
+          <input type="text" placeholder="Última nome" class="contact-input" required>
         </div>
         <div class="contact-row">
-          <input type="email" placeholder="Digite seu e-mail" class="contact-input">
-          <input type="tel" placeholder="Digite seu telefone" class="contact-input">
+          <input type="email" placeholder="Digite seu e-mail" class="contact-input" required>
+          <input type="tel" placeholder="Digite seu telefone" class="contact-input" required>
         </div>
         <input type="text" placeholder="Qual o seu cargo?" class="contact-input">
-        <textarea placeholder="Mensagem" class="contact-textarea"></textarea>
+        <textarea placeholder="Mensagem" class="contact-textarea" required></textarea>
         <button type="submit" class="contact-button">Enviar mensagem</button>
       </form>
 
