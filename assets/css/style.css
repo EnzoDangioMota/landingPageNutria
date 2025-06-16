@@ -492,15 +492,6 @@ footer {
   margin: 0;
 }
 
-
-.footer-right {
-  text-align: left;
-}
-
-
-
-
-
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
